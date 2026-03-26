@@ -162,7 +162,7 @@ def LoginPage(on_login: Callable[[str, str], None]) -> Tuple[ft.Control, Callabl
                 ft.Divider(color=Colors.BORDER, height=1),
                 ft.Container(height=12),
                 ft.Text(
-                    "© 2025 ERP System · Flet + SQLAlchemy",
+                    "© 2025 ERP System · by krisandi.ahmadg@gmail.com",
                     size=11, color=Colors.TEXT_MUTED,
                     text_align=ft.TextAlign.CENTER,
                 ),
